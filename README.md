@@ -1,8 +1,11 @@
 # All In One Chat Bot Using Large Language Model 
 
 # About 
+
 This project explores the development of an innovative ALL-IN-ON CHATBOT powered by the advanced GPT-3.5 Turbo Large Language Model addressing the critical need for efficient data analysis and insights in various industries. The chatbot enables users to seamlessly upload and analyze data in diverse formats, such as CSV, PDF,and DOCX,facilitating streamlined data-driven decision-making for professionals and researchers.
+
 Acknowledging the limitations of existing large language model applications like ChatGPT and Google Bard, this research presents a solution-oriented approach. While ChatGPT’s knowledge retention limitation hinders real-time information retrieval, ChatGPT 3.5 lacks data manipulation capabilities. The introduction of data upload features in ChatGPT 4.0 is commendable but raises privacy concerns Google Bard’s IP tracking adds an additional layer of privacy apprehensions. 
+
 In response, this project proposes solutions to these issues, aiming to create a more comprehensive, secure, and privacy-conscious approach to data utilization and real-time insights. By addressing the limitations and enhancing the practical utility of large language models, the research contributes to the advancement of AI applications.The ALL-IN-ONE CHATBOT exemplifies the possibilities of seamlessly integrating conversational AI and data analysis, improving trustworthiness and versatility in real world scenarios. This work signifies a significant step towards a future where AI-driven tools empower users across diverse domains by bridging the gap between natural language understanding and data analysis
 
 
@@ -18,13 +21,18 @@ Upon accessing the application, users can upload a CSV file, which is temporaril
 - **Natural Language Interaction:** The application primarily relies on OpenAI's GPT-3.5 language model for its functionality. When a user initiates a chat session by clicking the "Generate" button, it triggers the "chat_with_csv" function, which processes the DataFrame and the user's query. Using the GPT-3.5 model, it generates a textual or visual response, which is then displayed to the user via the "st.success" component.
 
 ![alt text](<csv upload.jpeg>)
+
 Csv file is uploaded. 
 
 ![alt text](<csv processing.jpeg>)
+
 Chat bot processes user query. 
 
 ![alt text](<csv chart.jpeg>)
+
 The chat bot also visualises the data. 
+
+
 
 
 # PDF / DOCX File Architechture: 
@@ -46,11 +54,14 @@ The chat bot also visualises the data.
 - **User Query:** The process begins when a user submits a conversational query. The document retriever scans the embeddings of the uploaded file to find the most relevant documents. These documents are then sent to the OpenAI model, which comprehends the context, summarizes information, and generates responses. The model processes the information to provide contextually relevant answers, explanations, or details in response to the user's query. The generated response is then delivered to the user, completing the conversational interaction.
 
 ![alt text](<pdf processing.jpeg>)
+
 The chat bot summarises the pdf document.
 
 ![alt text](embedding.jpeg)
+
 It shows the embedding created. 
 
 ![alt text](<similarity search.jpeg>)
-The chat bot also shows the similarity search with k=4. # All-In-One-Chatbot-LLM
-# All-In-One-Chatbot-LLM
+
+The chat bot also shows the similarity search with k=4.
+
